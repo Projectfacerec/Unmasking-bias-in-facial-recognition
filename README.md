@@ -1,5 +1,7 @@
 # Unmasking-bias-in-facial-recognition
 
+Dataset Link: https://drive.google.com/drive/folders/1xIlK2wu5lGExcX9B6-MUd-dvq-UeyPrq?usp=sharing
+
 This research investigates the influence of demographic factors on facial recognition algorithms and proposes strategies to enhance accuracy and fairness. Four prominent face recognition algorithms (LBP, EigenFace, FaceNet, and Face_recognition) undergo systematic evaluation across diverse demographic cohorts, encompassing race, gender, and age. Additionally, strategic data augmentation techniques are employed to address potential biases in algorithm performance.
 
 Analysis of the UTKface dataset uncovers significant variations in algorithm accuracy across demographic cohorts. FaceNet achieves exemplary accuracy across all cohorts, while Face_recognition exhibits comparatively lower accuracy, particularly for White, Male, and Female cohorts. The initial application of ordinary data augmentation yields an overall improvement in accuracy, but certain cohorts experience a decrease, necessitating the use of strategic augmentation.
@@ -21,3 +23,5 @@ Color Jitter: This applies random changes to the color of the image, but with sl
 Random Resized Crop: This step resizes the image to a random size and then crops a random region from the image at the specified size (224x224 in this case).
 To Tensor: This transformation converts the image to a tensor for use in deep learning frameworks.
 This augmentation introduces more substantial random rotations (up to 30 degrees) and includes random horizontal and vertical flips. Additionally, it applies slightly larger variations in color jitter. These adjustments result in increased diversity during training, which can help the model become more robust to various transformations and real-world scenarios.
+
+
