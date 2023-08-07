@@ -2,6 +2,8 @@
 
 Dataset Link: https://drive.google.com/drive/folders/1xIlK2wu5lGExcX9B6-MUd-dvq-UeyPrq?usp=sharing
 
+Link to the model: https://drive.google.com/file/d/1-5wcxAjguJJRpjWo6zrq_-Olt-qyikil/view?usp=sharing
+
 This research investigates the influence of demographic factors on facial recognition algorithms and proposes strategies to enhance accuracy and fairness. Four prominent face recognition algorithms (LBP, EigenFace, FaceNet, and Face_recognition) undergo systematic evaluation across diverse demographic cohorts, encompassing race, gender, and age. Additionally, strategic data augmentation techniques are employed to address potential biases in algorithm performance.
 
 Analysis of the UTKface dataset uncovers significant variations in algorithm accuracy across demographic cohorts. FaceNet achieves exemplary accuracy across all cohorts, while Face_recognition exhibits comparatively lower accuracy, particularly for White, Male, and Female cohorts. The initial application of ordinary data augmentation yields an overall improvement in accuracy, but certain cohorts experience a decrease, necessitating the use of strategic augmentation.
